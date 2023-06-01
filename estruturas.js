@@ -50,9 +50,17 @@ while (contador < 10) {
 }
 */
 
-// para 
+// para
+
+function principal(mensagem) {
 
 for (let i=0; i < 5; i++) {
     console.log(i);
 
 }
+
+console.log(mensagem);
+
+}
+
+principal("Esta é a mensagem");
